@@ -24,9 +24,43 @@
         </div>
 
         <div class="content">
-            <h2 class="content-title">Sign Up for and <span class="amazing">amazing</span> experience.</h2>
-            <form action="#">
+            <h2 class="content-title">Sign Up for an <span class="amazing">amazing</span> experience.</h2>
+            <form action="#" method="post">
+                <fieldset class="fields name-fieldset">
+                    <p>
+                        <label for="first-name">First Name:</label>
+                        <input type="text" name="user_name" id="first-name" required>
+                    </p>
+    
+                    <p>
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" name="user_name" id="last-name" required>
+                    </p>
+                </fieldset>
 
+                <fieldset class="fields contact-fieldset">
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="user_email" id="email" required>
+                    </p>
+    
+                    <p>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" name="user_phone" id="phone" required>
+                    </p>
+                </fieldset>
+
+                <fieldset class="fields pass-fieldset">
+                    <p>
+                        <label for="password">Password:</label>
+                        <input type="password" name="user_password" id="password" required>
+                    </p>
+    
+                    <p>
+                        <label for="confirm-password">Confirm password:</label>
+                        <input type="password" name="user_confirm-password" id="confirm-password" required>
+                    </p>
+                </fieldset>
             </form>
         </div>
     </main>
