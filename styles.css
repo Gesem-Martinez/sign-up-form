@@ -1,6 +1,7 @@
 :root{
     --font: 'Poppins', sans-serif;
-    --text-color: #fcfcfc;
+    --tile-color: '#fcfcfc';
+    --text-color: #000000;
 }
 
 html{
@@ -40,7 +41,7 @@ html{
     font-family: var(--font);
     font-weight: 700;
     font-size: 5vw;
-    color: var(--text-color);
+    color: #fcfcfc;
 }
 
 .logo-img{
@@ -49,12 +50,12 @@ html{
 
 .content{
     flex: 3;
-    background-color: #4C5C3E;
+    background-color: #f0f4f2;
 }
 
 .content-title{
     font-family: var(--font);
-    color: var(--text-color);
+    color: var(--title-color);
     font-size: 2rem;
     margin-left: 50px;
     margin-top: 150px;
@@ -63,8 +64,8 @@ html{
 form{
     font-family: var(--font);
     color: var(--text-color);
-    background-color: #618264;
-    box-shadow: 10px 0 10px black;
+    background-color: #e4e6e5;
+    box-shadow: 5px 0 5px black;
 
     padding: 30px 50px;
     margin-top: 50px;
@@ -85,7 +86,7 @@ label{
 }
 
 input{
-    border: 2px solid #333333;
+    border: 1px solid #333333;
     border-radius: 8px;
     height: 30px;
     padding: 10px;
